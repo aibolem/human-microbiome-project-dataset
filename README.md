@@ -1,13 +1,11 @@
 # The Human Microbiome Project
 ## Stream data with DDA:
 ```
-import os, git
 from dagshub.streaming import DagsHubFilesystem
-url = 'https://<username>:<token>@dagshub.com/DagsHub-Datasets/human-microbiome-project-dataset.git'
-git.Git("./").clone(url)
-fs = DagsHubFilesystem("human-microbiome-project-dataset")
-print(list(fs.scandir("human-microbiome-project-dataset")))
-print(list(fs.listdir("human-microbiome-project-dataset/s3://human-microbiome-project")))
+
+fs = DagsHubFilesystem(".", repo_url="https://dagshub.com/DagsHub-Datasets/human-microbiome-project-dataset")
+
+fs.listdir("s3://human-microbiome-project")
 ```
 
 ## Description: 
