@@ -1,4 +1,7 @@
 # The Human Microbiome Project
+
+
+
 ## Stream data with DDA:
 ```
 from dagshub.streaming import DagsHubFilesystem
@@ -18,7 +21,8 @@ Uncertain
 https://commonfund.nih.gov/hmp
 ## Resources: 
 1. resource: 
-	- Description: https://aws.amazon.com/datasets/human-microbiome-project/
+	- Description: [aws.amazon.com/datasets/human-microbiome-project](https://dagshub.com/DagsHub-Datasets/human-microbiome-project-dataset/src/main/s3:/human-microbiome-project)
+        - dATA: https://dagshub.com/DagsHub-Datasets/human-microbiome-project-dataset/raw/3c1dcd37f09d92011ea0266919144875648c5e57/s3:/human-microbiome-project/DEMO/HM16STR/46333/by_subject/1018.fsa
 	- ARN: arn:aws:s3:::human-microbiome-project
 	- Region: us-west-2
 	- Type: S3 Bucket
